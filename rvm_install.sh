@@ -6,7 +6,6 @@ curl -sSL https://get.rvm.io | bash -s stable &&
 echo "unsetting GEM_HOME..."
 unset GEM_HOME &&
 
-echo "updating .bash_profile..."
 echo "source .bash_profile" >> ~/.bashrc &&
 echo "run:  source ~/.rvm/scripts/rvm"
 echo "run:  source ~/.bash_profile"
